@@ -1,0 +1,54 @@
+/* NevBar */
+
+.nevbar{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* HOmeImage */
+
+.picture1{
+    background-image: url('https://images.unsplash.com/photo-1509062522246-3755977927d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1404&q=80');
+    width: 100vw;
+    height: 70vh;
+    margin-left: none;
+    padding: none;
+}
+.text-block{
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 150%;
+}
+h4{
+    display: inline;
+    font-size: 300%;
+}
+#tech{
+    color: yellow;
+}
+#insti{
+    color: white;
+}
+#build{
+    padding-left: 40rem;
+    color: white;    
+}
+.btn{
+ 
+    margin-left: 50rem;  
+}
+button{
+    border: none;
+    outline: none;
+    width: 32%;
+    padding: 1rem;
+    background-color: rgb(236, 236, 37);
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+}
