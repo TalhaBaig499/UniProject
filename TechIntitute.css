@@ -110,13 +110,19 @@ li{
     margin: 0%;
     font-size: 200%;
 }
-.learM{
-    background-color: gray;
-    color: black;
+.lftB{
     width: 32%;
-    padding: 1rem; 
+    float: left;
+}
+.learM{
+    background-color: black;
+    border: 2px rgb(247, 178, 29) solid;   
 }
 #Lbtn{
-    
+    color: white;
     text-decoration: none;
+}
+.learM:hover{
+    background: rgb(247, 178, 29);
+    
 }
