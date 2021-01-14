@@ -1,12 +1,35 @@
-/* NevBar */
+/* navBar */
 
-.nevbar{
-    text-decoration: none;
+.bar{
+    height: 80px;
+    width: 100vw;
+    background-color: teal;
+    /* border-bottom: 2px white solid; */
+    top: 0%;
 }
-
-
-
-
+li{
+    display: inline;
+    float: right;
+    margin: 20px 0px 20px 0px;
+    font-size: large;
+}
+#navbtn{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+#navbtn:hover{
+    color: yellow;
+    background-color: gray;
+    opacity: 0.7;
+    border-radius: 2rem;
+}
+.img{
+    float: left;
+}
+#idimg{
+    width: 12.5%;
+}
 
 
 /* HOmeImage */
@@ -23,14 +46,14 @@
     padding-top: 15rem;
     font-size: 150%;
 }
-h4{
-    display: inline;
-    font-size: 300%;
-}
+
 #tech{
+    display: inline;
     color: yellow;
 }
 #insti{
+    display: inline;
+    font-size: 300%;
     color: white;
 }
 #build{
@@ -38,17 +61,62 @@ h4{
     color: white;    
 }
 .btn{
- 
-    margin-left: 50rem;  
+    margin-left: 50rem;
 }
-button{
+.homeB{ 
+    cursor: pointer;
     border: none;
     outline: none;
     width: 32%;
     padding: 1rem;
     background-color: rgb(236, 236, 37);
+    border: white 1px solid;
+  
+} 
+#hbtn{
+    text-decoration: none;
+    color: black;
 }
-button:hover{
-    cursor: pointer;
+.homeB:hover{
     background-color: white;
+    width: 35%;
+    box-shadow: 3px 3px 5px rgb(209, 231, 8); 
+}
+
+
+/* about */
+
+
+#abt{
+    padding-top: 90px;
+    text-align: center;
+}
+#pOfAbt{
+    text-align: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.Disp{
+    width: 300px;
+    height: 150px;  
+    padding: 50px ;
+    float: left;
+   
+}
+#yello{
+    color: chocolate;
+}
+#black{
+    margin: 0%;
+    font-size: 200%;
+}
+.learM{
+    background-color: gray;
+    color: black;
+    width: 32%;
+    padding: 1rem; 
+}
+#Lbtn{
+    
+    text-decoration: none;
 }
