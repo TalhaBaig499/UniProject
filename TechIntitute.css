@@ -96,9 +96,14 @@ li{
     margin-left: 8rem;
     margin-right: 8rem;
 }
+
+
+
+/* left pera */
+
 .Disp{
-    width: 300px;
-    height: 150px;  
+    width: 350px;
+    height: 200px;  
     padding: 50px ;
     float: left;
    
@@ -111,10 +116,11 @@ li{
     font-size: 200%;
 }
 .lftB{
-    width: 32%;
+    cursor: pointer;
     float: left;
 }
 .learM{
+    width: 90%;
     background-color: black;
     border: 2px rgb(247, 178, 29) solid;   
 }
@@ -125,4 +131,26 @@ li{
 .learM:hover{
     background: rgb(247, 178, 29);
     
+}
+
+/* image left */
+.abmg{
+    float: right;
+    width: 400px;0px;
+    height: 300px;
+    padding: 150px ;
+   
+}
+
+
+/* image right */
+
+.abmg2{
+    float: left;
+    width: 400px;0px;
+    height: 300px;
+    padding-top: 300px;
+    padding-left: 80px ;
+    padding-right: 0px;
+   
 }
