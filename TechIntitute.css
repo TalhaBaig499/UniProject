@@ -40,6 +40,7 @@ li{
     height: 70vh;
     margin-left: none;
     padding: none;
+    border-bottom: 2px gray solid ;
 }
 .text-block{
     text-align: center;
@@ -86,7 +87,6 @@ li{
 
 /* about */
 
-
 #abt{
     padding-top: 90px;
     text-align: center;
@@ -115,23 +115,26 @@ li{
     margin: 0%;
     font-size: 200%;
 }
-.lftB{
+
+.lbtn{
     cursor: pointer;
-    float: left;
-}
-.learM{
-    width: 90%;
+    width: 32%;
     background-color: black;
     border: 2px rgb(247, 178, 29) solid;   
 }
-#Lbtn{
+#albtn{
     color: white;
     text-decoration: none;
 }
-.learM:hover{
-    background: rgb(247, 178, 29);
-    
+
+.lbtn:hover{
+    cursor: pointer;
+    background-color: rgb(189, 136, 38);
 }
+
+
+
+
 
 /* image left */
 .abmg{
@@ -149,8 +152,82 @@ li{
     float: left;
     width: 400px;0px;
     height: 300px;
-    padding-top: 300px;
+    padding-top: 250px;
     padding-left: 80px ;
     padding-right: 0px;
+  
    
+}
+
+
+/* Right */
+
+
+.rigtP{
+    width: 350px;
+    height: 200px;  
+    padding-left: 0px ;
+    padding-right: 50px ;
+    padding-bottom: 50px;
+    float: right;
+}
+#vision{
+    margin: 0%;
+    font-size: 200%;
+}
+.rigtB{
+    /* padding: 2px; */
+}
+.ribtn{
+    cursor: pointer;
+    width: 32%;
+    background-color: black;
+    border: 2px rgb(247, 178, 29) solid;   
+}
+#aribtn{
+    color: white;
+    text-decoration: none;
+}
+.ribtn:hover{
+    background: rgb(247, 178, 29);
+}
+
+/* Courses */
+
+.cours{
+    margin-top: 60rem;
+    background-color: whitesmoke;
+    border-top: 2px whitesmoke solid;
+}
+#hC{
+    text-align: center;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+  }
+#imgC{
+    width: 400px;
+    height: auto;
+}
+#imgCs{
+    width: 380px;
+    height: auto;
+}
+#imgCp{
+    width: 415px;
+    height: auto;
+}
+#lorC{
+    text-align: center;
+}
+/* #margH{
+  
+  padding: 5px;
+} */
+.gallery:hover{
+    border: 2px gray solid;
 }
