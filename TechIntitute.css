@@ -225,7 +225,9 @@ li{
 }
 
 .gallery:hover{
-    border: 2px gray solid;
+    border: 0.08rem gray solid;
+   
+}
 }
 .contect{
     background-image: url();
@@ -384,4 +386,5 @@ li{
     font-weight: normal;
     margin: 0;
   }
+ 
   
