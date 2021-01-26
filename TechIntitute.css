@@ -191,11 +191,20 @@ li{
     background: rgb(247, 178, 29);
 }
 
+
 /* Courses */
 
 .cours{
-    margin-top: 60rem;
-    background-color: whitesmoke;
+    background-image: linear-gradient(
+         to right , 
+        #ada996
+       ,
+        #f2f2f2
+        , 
+        #dbdbdb
+        , 
+        #eaeaea);
+    /* background-color: rgb(238, 228, 228); */
     border-top: 2px whitesmoke solid;
 }
 #hC{
@@ -233,15 +242,18 @@ li{
     background-image: url();
 }
 
+
 /* contect  */
 
 #fotr{
+    
     text-align: center;
     padding-bottom: 3rem;
+    
 
 }
 .footer {
- 
+    margin-top: 60rem;
     background-image: url('https://images.unsplash.com/photo-1550123309-3cf75e1d0c83?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
     width: 90vw;
     text-align: left;
@@ -249,7 +261,7 @@ li{
     font-weight: bold;
     font-size: 16px;
     padding: 50px;
-    margin-top: 50px;
+    
     
   }
   
@@ -295,8 +307,12 @@ li{
     width: 35px;
     height: 35px;
     background-color: #fff;
-    color: rgb(9, 64, 116);
-  }
+    color: rgb(9, 34, 116);
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+ 
+  } 
   
   /* footer center*/
   
