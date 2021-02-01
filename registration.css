@@ -1,0 +1,91 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1565951808055-50a3286a8a10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80');
+    position: relative;
+    text-align: center;
+
+}
+h1{
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+    margin-top: 15rem;
+    text-transform: uppercase;
+}
+.head :hover{
+
+    color:gray;
+    cursor: pointer;
+}
+.log{
+    /* margin-left: 20.5rem;   */
+   
+}
+.log :hover{
+    /* background-color: white; */
+}
+#mail{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 28vw;
+    padding: .5rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    background-image: url('https://images.unsplash.com/photo-1565951808055-50a3286a8a10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80');
+}
+#pass{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 28vw;
+    padding: .5rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    background-image: url('https://images.unsplash.com/photo-1565951808055-50a3286a8a10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80');
+}
+button{
+    margin-bottom: 1rem;
+    width: 12vw;
+    font-size: large;
+    padding: .5rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+}
+.btn :hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+#fname{
+    margin-right: 7rem;
+}
+#lname{
+    margin-left: 6rem;
+}
+#fname, #lname {
+    
+    background-image: url('https://images.unsplash.com/photo-1565951808055-50a3286a8a10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80');
+    margin-bottom: 1rem;
+    display: inline;
+    color: white;
+    width: 5vw;
+    padding: .5rem;
+    text-align: center;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+}
+#cnic{
+    background-image: url('https://images.unsplash.com/photo-1565951808055-50a3286a8a10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80');
+    margin-bottom: 1rem;
+    padding: .5rem;
+    color: white;
+    text-align: center;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    width: 12vw;
+    margin-right: 13rem;
+}
